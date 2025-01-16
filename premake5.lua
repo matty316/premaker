@@ -6,6 +6,7 @@ project "ProjectName"
     kind "ConsoleApp"
     language "C++"
     targetdir "bin/%{cfg.buildcfg}"
+    cppdialect "C++23"
 
     files { "include/**.h", "src/**.c", "src/**.cpp" }
 
